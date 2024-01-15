@@ -48,3 +48,5 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 ## license
 
 The project is licensed under the MIT License. Feel free to use, modify and distribute the code for your projects.
+
+Happy coding! 🚀
