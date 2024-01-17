@@ -9,7 +9,104 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // 4. Write a README.md file
 
 // array of questions for user
-const questions = [];
+const questions = [
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?',
+  },
+  {
+    type: 'input',
+    name: 'description1',
+    message: 'What was your motivation?',
+  },
+  {
+    type: 'input',
+    name: 'description2',
+    message:
+      "Why did you build this project? (Note: the answer is not 'Because it was a homework assignment.')",
+  },
+  {
+    type: 'input',
+    name: 'description3',
+    message: 'What problem does it solve?',
+  },
+  {
+    type: 'input',
+    name: 'description4',
+    message: 'What did you learn?',
+  },
+  {
+    type: 'input',
+    name: 'description5',
+    message: 'What makes your project stand out?',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'How can the user install your project?',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'How should the project be used?',
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'Choose a license.',
+    choices: ['MIT', 'BSD', 'ETC', 'ETC', 'ETC'],
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'Who contributed to this project?',
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message:
+      'How should the user test your project? (Note: Does not require any testing.)',
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'What is your GitHub username?',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email address?',
+  },
+  {
+    type: 'checkbox',
+    name: 'badges',
+    message: 'Select badges to add:',
+    choices: [
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Node.js',
+      'Figma',
+      'DevTools',
+      'npm',
+      'Yarn',
+      'React.js',
+      'React Native',
+      'Angular',
+      'Tailwind CSS',
+      'Bootstrap',
+      'jQuery',
+      'jQuery UI',
+      'three.js',
+      'd3.js',
+      'TensorFlow',
+      'MongoDB',
+      'Mongoose',
+      'Netlify',
+    ],
+  },
+];
 
 // function to write README file
 function writeToFile(fileName, data) {}
