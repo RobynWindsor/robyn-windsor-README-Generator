@@ -88,10 +88,21 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFileSync(fileName, data);
+}
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer
+    .prompt(questions)
+    .then((answers) => {
+      const markdown = generateMarkdown(answers);
+      writeToFile('README.md', markdown);
+      console.log('README.md has been successfully generated!');
+    })
+    .catch((err) => console.error(err));
+}
 
 // function call to initialize program
 init();
