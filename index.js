@@ -17,30 +17,10 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'description1',
+    name: 'description',
     message: 'What was your motivation?',
   },
-  {
-    type: 'input',
-    name: 'description2',
-    message:
-      "Why did you build this project? (Note: the answer is not 'Because it was a homework assignment.')",
-  },
-  {
-    type: 'input',
-    name: 'description3',
-    message: 'What problem does it solve?',
-  },
-  {
-    type: 'input',
-    name: 'description4',
-    message: 'What did you learn?',
-  },
-  {
-    type: 'input',
-    name: 'description5',
-    message: 'What makes your project stand out?',
-  },
+
   {
     type: 'input',
     name: 'installation',
@@ -65,8 +45,7 @@ const questions = [
   {
     type: 'input',
     name: 'tests',
-    message:
-      'How should the user test your project? (Note: Does not require any testing.)',
+    message: 'How should the user test your project?',
   },
   {
     type: 'input',
