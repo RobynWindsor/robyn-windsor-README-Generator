@@ -86,6 +86,8 @@ This project is licensed under the ${data.license} License.
 ## Badges
 ${badgeSection}
 `;
+
+  return readmeContent;
 }
 
 module.exports = generateMarkdown;
