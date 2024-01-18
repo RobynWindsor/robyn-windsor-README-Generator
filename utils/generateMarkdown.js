@@ -56,6 +56,36 @@ ${data.description2}
 ${data.description3}
 ${data.description4}
 ${data.description5}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Tests
+${data.tests}
+
+## Contributors
+${data.contributing}
+
+## Questions
+For questions about the project, you can reach me at [GitHub: ${data.github}](https://github.com/${data.github}) or contact me via email at ${data.email}.
+
+## License
+This project is licensed under the ${data.license} License.
+
+## Badges
+${badgeSection}
+`;
 }
 
 module.exports = generateMarkdown;
