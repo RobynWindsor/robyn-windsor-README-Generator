@@ -48,7 +48,14 @@ function generateMarkdown(data) {
 
   const badgeSection = selectedBadges ? selectedBadges + '\n' : '';
 
-  const readmeContent = `# ${data.title}
+  const readmeContent = `# ${data.title};
+
+## Description
+${data.description1}
+${data.description2}
+${data.description3}
+${data.description4}
+${data.description5}
 }
 
 module.exports = generateMarkdown;
