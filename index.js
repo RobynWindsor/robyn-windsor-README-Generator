@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
+const outputFolder = 'output';
 
 // 1. Come up with README default file structure
 // 2. Decide which questions you want to ask
@@ -87,10 +88,17 @@ const questions = [
   },
 ];
 
+// Create outPut folder if necessary
+if (!fs.existsSync(outputFolder)) {
+  fs.mkdir(outputFolder);
+}
+
 // function to write README file
 function writeToFile(fileName, data) {
   fs.writeFileSync(fileName, data);
 }
+
+const outputFolder = 'utils';
 
 // function to initialize program
 function init() {
