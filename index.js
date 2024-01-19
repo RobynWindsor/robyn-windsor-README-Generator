@@ -105,8 +105,10 @@ function init() {
     .prompt(questions)
     .then((answers) => {
       const markdown = generateMarkdown(answers);
-      writeToFile('README.md', markdown);
-      console.log('README.md has been successfully generated!');
+      writeToFile(outputFolder, 'README.md', markdown);
+      console.log(
+        'README.md has been successfully generated and saved to the "output" folder!'
+      );
     })
     .catch((err) => console.error(err));
 }
