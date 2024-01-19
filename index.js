@@ -94,11 +94,10 @@ if (!fs.existsSync(outputFolder)) {
 }
 
 // function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFileSync(fileName, data);
+function writeToFile(folder, fileName, data) {
+  const filePath = path.join(folder, fileName);
+  fs.writeFileSync(filePath, data);
 }
-
-const outputFolder = 'utils';
 
 // function to initialize program
 function init() {
