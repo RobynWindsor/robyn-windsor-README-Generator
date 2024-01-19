@@ -89,9 +89,9 @@ const questions = [
 ];
 
 // Create outPut folder if necessary
-if (!fs.existsSync(outputFolder)) {
-  fs.mkdir(outputFolder);
-}
+// if (!fs.existsSync(outputFolder)) {
+//   fs.mkdir(outputFolder);
+// }
 
 // function to write README file
 function writeToFile(folder, fileName, data) {
