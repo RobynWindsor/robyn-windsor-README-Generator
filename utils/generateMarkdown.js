@@ -42,8 +42,12 @@ function generateMarkdown(data) {
       Netlify:
         '![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=white)',
     };
+    return badges[badge];
   };
 
+  // Get badge markdown
+  const selectedBadges = data.badges.map(generateBadge).join('\n');
+  const badgeSection = selectedBadges ? selectedBadges + '\n' : '';
   const readmeContent = `# ${data.title};
 
 ## Description
