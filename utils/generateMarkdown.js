@@ -46,9 +46,11 @@ function generateMarkdown(data) {
   };
 
   // Get badge markdown
-  const selectedBadges = data.badges.map(generateBadge).join('\n');
+  const selectedBadges = data.badges
+    ? data.badges.map(generateBadge).join('\n')
+    : '';
   const badgeSection = selectedBadges ? selectedBadges + '\n' : '';
-  const readmeContent = `# ${data.title};
+  const readmeContent = `# ${data.title}
 
 ## Description
 ${data.description}
@@ -78,7 +80,10 @@ ${data.contributing}
 For questions about the project, you can reach me at [GitHub: ${data.github}](https://github.com/${data.github}) or contact me via email at ${data.email}.
 
 ## License
-This project is licensed under the ${data.license} License.`;
+This project is licensed under the ${data.license} License.
+
+## Badges
+${badgeSection}`;
 
   return readmeContent;
 }
