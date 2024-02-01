@@ -58,6 +58,31 @@ const questions = [
     name: 'email',
     message: 'What is your email address?',
   },
+  {
+    type: 'checkbox',
+    name: 'badges',
+    message: 'Select badges to add:',
+    choices: [
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Node.js',
+      'Figma',
+      'DevTools',
+      'npm',
+      'Yarn',
+      'React.js',
+      'React Native',
+      'Angular',
+      'Tailwind CSS',
+      'Bootstrap',
+      'jQuery',
+      'jQuery UI',
+      'TensorFlow',
+      'MongoDB',
+      'Mongoose',
+    ],
+  },
 ];
 
 // Create outPut folder if necessary
