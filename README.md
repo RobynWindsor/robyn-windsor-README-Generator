@@ -28,6 +28,8 @@ Make sure you have Node.js and npm installed on your machine before using the RE
 Run the following command to generate a README file for your project:
 ![Screenshot 2024-01-18 195735](https://github.com/RobynWindsor/robyn-windsor-README-Generator/assets/127926809/a5abb652-ba80-447b-90d3-d1ee3cd27e99)
 
+https://drive.google.com/file/d/1lqpjNb8be4i3YkC3VOG5ZMabALmCrWw8/view?usp=drive_link
+
 Follow the prompts to enter information about your project, and the generator will create a README.md file in your project's root directory.
 
 ## Contributing
