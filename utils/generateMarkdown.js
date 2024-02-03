@@ -29,18 +29,12 @@ function generateMarkdown(data) {
         '![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)',
       'jQuery UI':
         '![jQuery UI](https://img.shields.io/badge/jquery_ui-%23435B9A.svg?style=for-the-badge&logo=jquery&logoColor=white)',
-      'three.js':
-        '![three.js](https://img.shields.io/badge/three.js-%23400D17.svg?style=for-the-badge&logo=three.js&logoColor=white)',
-      'd3.js':
-        '![d3.js](https://img.shields.io/badge/d3.js-%23F9A03C.svg?style=for-the-badge&logo=d3.js&logoColor=white)',
       TensorFlow:
         '![TensorFlow](https://img.shields.io/badge/tensorflow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)',
       MongoDB:
         '![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)',
       Mongoose:
         '![Mongoose](https://img.shields.io/badge/mongoose-%23880000.svg?style=for-the-badge&logo=mongoose&logoColor=white)',
-      Netlify:
-        '![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=white)',
     };
     return badges[badge];
   };
