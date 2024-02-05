@@ -32,6 +32,10 @@ https://drive.google.com/file/d/1lqpjNb8be4i3YkC3VOG5ZMabALmCrWw8/view?usp=drive
 
 Follow the prompts to enter information about your project, and the generator will create a README.md file in your project's root directory.
 
+## Walkthrough Video
+
+https://drive.google.com/file/d/1lqpjNb8be4i3YkC3VOG5ZMabALmCrWw8/view?usp=drive_link
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
