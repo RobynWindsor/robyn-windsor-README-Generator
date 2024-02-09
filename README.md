@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
 - [Features](#features)
-- [Getting Started] (#getting-started)
+- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
