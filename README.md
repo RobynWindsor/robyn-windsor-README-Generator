@@ -1,5 +1,17 @@
 # Node.js README Generator
 
+## Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started] (#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Walkthrough Video](#walkthrough-video)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Overview
 
 The Node.js README Generator is a command-line tool designed to simplify the process of creating README files for your Node.js projects. This tool automates the generation of a basic README template, allowing you to focus more on your project's content and less on the manual creation of README files.
