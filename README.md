@@ -44,7 +44,7 @@ Follow the prompts to enter information about your project, and the generator wi
 
 ## Walkthrough Video 🔗
 
-https://drive.google.com/file/d/1lqpjNb8be4i3YkC3VOG5ZMabALmCrWw8/view?usp=sharing
+https://drive.google.com/file/d/1w3e8pyeDzPIrHBUAGrhqK_RJwXqI4tx1/view?usp=sharing
 
 ## Contributing
 
